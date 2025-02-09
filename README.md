@@ -61,9 +61,7 @@ Example Output
 
 ========================================
          Disk Storage Usage            
-========================================
-Filesystem      Size  Used Avail Use% Mounted on  
-/dev/nvme0n1p2  233G   81G  141G  37% /  
+======================================== 
 ...
 ========================================
          CPU Information               
@@ -72,12 +70,10 @@ Filesystem      Size  Used Avail Use% Mounted on
 ========================================
          GPU Information               
 ========================================  
-Detected GPU ID: 01:00.0  
 ...
 ========================================
          RAM Usage                      
 ========================================  
-Mem:            31Gi       2.6Gi        26Gi  
 ...
 
 Notes
