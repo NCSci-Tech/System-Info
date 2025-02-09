@@ -22,9 +22,7 @@ Optional: nvidia-smi can be uncommented for NVIDIA GPU users.
 
 Usage
 
-Open a terminal.
-
-Run the script with:
+Open a terminal and run:
 
 sudo ./checkSys.sh
 
@@ -62,20 +60,24 @@ free -h
 Example Output
 
 ========================================
-          Disk Storage Usage           
+         Disk Storage Usage            
 ========================================
+Filesystem      Size  Used Avail Use% Mounted on  
+/dev/nvme0n1p2  233G   81G  141G  37% /  
 ...
 ========================================
-            CPU Information            
-========================================
+         CPU Information               
+========================================  
 ...
 ========================================
-            GPU Information            
-========================================
+         GPU Information               
+========================================  
+Detected GPU ID: 01:00.0  
 ...
 ========================================
-             RAM Usage                 
-========================================
+         RAM Usage                      
+========================================  
+Mem:            31Gi       2.6Gi        26Gi  
 ...
 
 Notes
