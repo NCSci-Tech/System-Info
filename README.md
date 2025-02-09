@@ -64,8 +64,6 @@ Example Output
 ========================================
           Disk Storage Usage           
 ========================================
-Filesystem      Size  Used Avail Use% Mounted on
-/dev/nvme0n1p2  233G   81G  141G  37% /
 ...
 ========================================
             CPU Information            
@@ -74,12 +72,10 @@ Filesystem      Size  Used Avail Use% Mounted on
 ========================================
             GPU Information            
 ========================================
-Detected GPU ID: 01:00.0
 ...
 ========================================
              RAM Usage                 
 ========================================
-Mem:            31Gi       2.6Gi        26Gi
 ...
 
 Notes
@@ -88,6 +84,6 @@ If swap space is not needed, it can be removed or resized (see script comments f
 
 Modify as needed for additional system monitoring features.
 
-License
+Sudo
 
-This script is free to use and modify. Enjoy monitoring your system! 🚀
+Nikolai Connelly
